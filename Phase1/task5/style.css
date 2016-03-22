@@ -1,0 +1,143 @@
+*{
+    padding: 0;
+    margin:0 ;
+
+}
+body{
+    background-color: #dedede;
+}
+.clearfix::after {
+            content: ".";
+            display: block;
+            clear: both;
+            height: 0;
+            overflow: hidden;
+            visibility: hidden;
+}
+
+.main{
+    min-width: 800px;
+}
+/*头部*/
+.head{
+    background-color: #454545;
+    width: 100%;
+    height: 50px;
+    min-width: 800px;
+}
+
+.icon{
+    width: 100px;
+    color: #fff;
+    padding-top: 10px;
+    text-align: center;
+    font-size: 22px;
+}
+nav{
+    font-size: 14px;
+    float: right;
+    margin-top:-25px;
+    line-height: 30px;
+}
+header li{
+    float: left;
+    width: 100px;
+}
+header li a{
+    text-decoration: none;
+}
+header a:link{
+    color: #fff;
+}
+header a:visited{
+    color:#eee;
+}
+header a:hover{
+    color:yellow;
+}
+header a:active{
+    color:red;
+}
+
+/*右边*/
+aside{
+    float: right;
+    width: 400px;
+    right: 0;
+    margin-right: 30px;
+    line-height: 30px;
+    border: 1px solid #bbb;
+    background-color: #fff;
+}
+.notice{
+    display: block;
+    color:#ccc;
+    margin-left: 170px;
+    font-size: 14px;
+}
+.word{
+    display: inline-block;
+    width:40%;
+    text-align: right;
+    font-size: 14px;
+}
+.lab{
+    font-size: 14px;
+}
+.dis .word{
+float: left;
+}
+textarea{
+    width:170px;
+    height: 100px;
+    margin-top: 5px;
+}
+.sure{
+    width: 70%;
+    height: 30px;
+    background-color: blue;
+    text-align: center;
+    border-radius: 10px;
+    margin-left: 60px;
+    border: 0;
+    margin-bottom: 10px;
+}
+/*左边*/
+article{
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 500px;
+    min-width: 200px;
+}
+.first{
+    border: 1px solid #000;
+    margin-top: 20px;
+    background-color: #fff;
+}
+.first li{
+    margin-left: 25px;
+}
+.images{
+     list-style-type: none;
+}
+.images li{
+       float: left;;
+       border: 1px solid #eee;
+       text-align: center;
+}
+
+table{
+    border: 1px solid #000;
+    text-align: left;
+    width: 100%;
+}
+/*底部*/
+footer{
+       height: 50px;
+       background-color: #000;
+        color: #fff;
+        font-size: 14px;
+        text-align: center;
+        line-height: 60px;
+        margin-top: 100px;
+}
